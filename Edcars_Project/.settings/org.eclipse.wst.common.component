@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Edcars_Project">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="logging-mailhandler-1.5.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/logging-mailhandler-1.5.6/logging-mailhandler-1.5.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pop3-1.5.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/pop3-1.5.6/pop3-1.5.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="smtp-1.5.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/smtp-1.5.6/smtp-1.5.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gimap-1.5.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/gimap-1.5.6/gimap-1.5.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mailapi-1.5.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mailapi-1.5.6/mailapi-1.5.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.22-bin.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.1.22-bin/mysql-connector-java-5.1.22-bin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activation.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/activation/activation">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.mail-api-1.5.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.mail-api-1.5.6/javax.mail-api-1.5.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dsn-1.5.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/dsn-1.5.6/dsn-1.5.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="imap-1.5.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/imap-1.5.6/imap-1.5.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.mail.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.mail/javax.mail">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Edcars_Project"/>
+        <property name="java-output-path" value="/Edcars_Project/build/classes"/>
+    </wb-module>
+</project-modules>
